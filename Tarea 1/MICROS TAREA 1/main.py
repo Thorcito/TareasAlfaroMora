@@ -1,3 +1,13 @@
+# Programacion realizada por Nadir Alfaro y Randy Mora
+# Los codigos de error utilizados son los siguientes
+# 1 = Error unico cuando el paramentro ingresado contiene numeros
+# 2 = Error unico cuando el paramentro ingresado contiene numeros y simbolos
+# 3 = Error unico cuando el parametro ingresado contiene un numero mayor a 99, decimal o negativo
+# 4 = Error unico cuadno el paramentro ingresado es un string
+
+
+# Es importante instalar la libreria num2words que la funcion
+# num_to_str funcione adecuadamente
 # Se importan librerías
 from num2words import num2words
 

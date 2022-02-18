@@ -1,3 +1,11 @@
+# Programacion realizada por Nadir Alfaro y Randy Mora
+# Los codigos de error utilizados son los siguientes
+# 1 = Error unico cuando el paramentro ingresado contiene numeros
+# 2 = Error unico cuando el paramentro ingresado contiene numeros y simbolos
+# 3 = Error unico cuando el parametro ingresado contiene un numero mayor a 99, decimal o negativo
+# 4 = Error unico cuadno el paramentro ingresado es un string
+
+
 # este es el archivo para hacer la pruebas de pytest
 
 # se importa lo del main para no tener que definir de nuevo las funciones
