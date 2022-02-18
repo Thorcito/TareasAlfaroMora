@@ -23,23 +23,21 @@ def string_work(entrada):  # Se crea la funcion
 def num_to_str(entry):
     if entry.isnumeric():  # Se verifica si el entry es un caracter del 0 al 9
         ent = int(entry)  # Define la entrada como int
-        if ent <= 99:  #
+        if ent <= 99:  #en caso de ser menor a 99
             # si la condicion se cumple, convierte el numero a letras
             letras_esp = num2words(ent, lang='es')
             # la libreria divide las palabras con un espacio
             # se cambia el espacio con el simbolo _
             letras_fin = letras_esp.replace(" ", "_")
             print(letras_fin)  # se imprime el resultado del numero en letras
-            return letras_fin
-        elif ent > 99:
-            print("3")
-            return 3
+            return letras_fin  # retorna el resultado
+        elif ent > 99:  # en caso de ser mayor a 99
+            print("3")  # imprime error unico 3
+            return 3  # retorna error: 3
     else:  # en caso de que pase un string
-        if entry.isalpha():
-            # imprime codigo de error unico, el 2 se imprime cunado el texto
-            # ingresado contiene letras
-            print("4")
+        if entry.isalpha():  # verifica si es alfanumerico
+            print("4")  # imprime codigo de error unico 4
             return 4  # finaliza la funcion
-        else:
-            print("3")
-            return 3
+        else:  # caso contrario
+            print("3")  # imprime codigo de error unico 3
+            return 3  # reotrna error:3
