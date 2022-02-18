@@ -16,7 +16,8 @@ def test_entrada_numero():  # prueba si al introducir un numero retorna error 1
     assert string_work(x) == 1
 
 
-def test_entrada_letrasynumeros():  # prueba si al introducir un string con num y letras retorna error 2
+# prueba si al introducir un string con num y letras retorna error 2
+def test_entrada_letrasynumeros():
     x = "ASjsd21"
     assert string_work(x) == 2
 
@@ -38,7 +39,8 @@ def test_string():  # prueba si al introducir un string reotrna error 4
     assert num_to_str(x) == 4
 
 
-def test_neg_dec_may():  # prueba si al introducir un numero negativo, decimal o <99 retorna error 3
+# prueba si al introducir un numero negativo, decimal o <99 retorna error 3
+def test_neg_dec_may():
     x = "-20"
     y = "123"
     z = "3.2"

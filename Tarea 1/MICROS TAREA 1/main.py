@@ -23,7 +23,7 @@ def string_work(entrada):  # Se crea la funcion
 def num_to_str(entry):
     if entry.isnumeric():  # Se verifica si el entry es un caracter del 0 al 9
         ent = int(entry)  # Define la entrada como int
-        if ent <= 99:  #en caso de ser menor a 99
+        if ent <= 99:  # en caso de ser menor a 99
             # si la condicion se cumple, convierte el numero a letras
             letras_esp = num2words(ent, lang='es')
             # la libreria divide las palabras con un espacio
