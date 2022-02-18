@@ -51,3 +51,5 @@ def num_to_str(entry):
         else:  # caso contrario
             print("3")  # imprime codigo de error unico 3
             return 3  # reotrna error:3
+
+num_to_str("45")
