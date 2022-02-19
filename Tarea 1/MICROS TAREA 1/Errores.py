@@ -1,8 +1,11 @@
 
+# Se importan librerías
+from num2words import num2words
+
 
 # Este es el algoritmop para el metodo string_work
-
-def string_work(entrada):  # Chequea si un string contiene solo letras sino retorna un codigo de error
+# Chequea si un string contiene solo letras sino retorna un codigo de error
+def string_work(entrada):
     # se compara si entrada es un caracter de la A a las Z
     if entrada.isalpha():
         entradilla = entrada.swapcase()  # if True, se cambian MAY por min
@@ -14,9 +17,6 @@ def string_work(entrada):  # Chequea si un string contiene solo letras sino reto
     else:  # En caso de ser alfanumérico
         print("2")  # Imprime error único 2
         return 2  # Retorna error:2
-
-# Se importan librerías
-from num2words import num2words
 
 
 # Se define la función

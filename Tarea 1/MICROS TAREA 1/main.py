@@ -2,7 +2,7 @@
 # Los codigos de error utilizados son los siguientes
 # 1 = Error unico cuando el paramentro ingresado contiene numeros
 # 2 = Error unico cuando el paramentro ingresado contiene numeros y simbolos
-# 3 = Error unico cuando el parametro ingresado contiene un numero mayor a 99, decimal o negativo
+# 3 = Error unico  numero mayor a 99, decimal o negativo
 # 4 = Error unico cuadno el paramentro ingresado es un string
 
 
@@ -51,5 +51,6 @@ def num_to_str(entry):
         else:  # caso contrario
             print("3")  # imprime codigo de error unico 3
             return 3  # reotrna error:3
+
 
 num_to_str("45")
